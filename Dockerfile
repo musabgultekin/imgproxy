@@ -7,6 +7,6 @@ RUN add-apt-repository ppa:dhor/myway && \
 
 RUN go get -f -u github.com/DarthSim/imgproxy
 
-CMD ["imgproxy"]
-
 EXPOSE 8080
+
+CMD ["imgproxy"]
